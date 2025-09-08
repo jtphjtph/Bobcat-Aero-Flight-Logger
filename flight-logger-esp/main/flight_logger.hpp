@@ -1,0 +1,6 @@
+#ifndef FLIGHT_LOGGER_H
+#define FLIGHT_LOGGER_H
+
+
+
+#endif // FLIGHT_LOGGER_H
