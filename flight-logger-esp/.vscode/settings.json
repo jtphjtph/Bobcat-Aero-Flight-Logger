@@ -3,12 +3,15 @@
   "idf.espIdfPathWin": "c:\\Users\\prh\\esp\\v5.4\\esp-idf",
   "idf.pythonInstallPath": "c:\\Users\\prh\\esp\\v5.4\\esp-idf\\tools\\tools\\idf-python\\3.11.2\\python.exe",
   "idf.openOcdConfigs": [
-    "board/esp32s3-builtin.cfg"
+    "board/esp32-wrover-kit-3.3v.cfg"
   ],
   "idf.portWin": "COM12",
   "idf.toolsPathWin": "c:\\Users\\prh\\esp\\v5.4\\esp-idf\\tools",
   "idf.customExtraVars": {
-    "IDF_TARGET": "esp32s3"
+    "OPENOCD_SCRIPTS": "C:\\Users\\prh\\.espressif\\tools\\openocd-esp32\\v0.12.0-esp32-20240318/openocd-esp32/share/openocd/scripts",
+    "IDF_CCACHE_ENABLE": "1",
+    "ESP_ROM_ELF_DIR": "C:\\Users\\prh\\.espressif\\tools\\esp-rom-elfs\\20240305/",
+    "IDF_TARGET": "esp32"
   },
   "idf.flashType": "UART"
 }
